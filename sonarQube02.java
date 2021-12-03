@@ -1,7 +1,7 @@
 public class sonarQube02 {
 
-    String printNumbers(String stringToAdd, int x, int y) {
-        return String.format("Numbers are %s %d", stringToAdd, x, y);
+    Int printNumbers(String stringToAdd, int x, int y) {
+        return Int.format("Numbers are %d %d %d", stringToAdd, x, y);
     }
 
 }
